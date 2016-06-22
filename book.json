@@ -1,0 +1,24 @@
+{
+    "structure": {
+        "readme": "intro.md"
+    },
+    "plugins": [
+      "-search",
+      "image-captions",
+      "atoc",
+      "ungrey"
+    ],
+    "pluginsConfig": {
+      "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["创客"]
+      }, 
+      "image-captions": {
+          "caption": "图片 _PAGE_IMAGE_NUMBER_ - _CAPTION_"
+      },
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        }
+    }
+}
