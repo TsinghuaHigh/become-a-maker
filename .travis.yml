@@ -1,0 +1,20 @@
+branches:
+  - except:
+    - gh-pages
+language: node_js
+env:
+  - COMMIT_AUTHOR_EMAIL: "tianshuo@gmail.com"
+  - ENCRYPTION_LABEL: "49b4382d8e91"
+node_js:
+  - "6"
+before_install:
+  - npm install -g gitbook-cli
+install:
+  - gitbook install
+script:
+  - gitbook build
+deploy:
+  - skip_cleanup: true
+  - on:
+    branch: master
+  - bash ./deploy.sh

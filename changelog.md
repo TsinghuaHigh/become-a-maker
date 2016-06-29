@@ -4,6 +4,16 @@
 
 请先阅读[更新日志规范](http://keepachangelog.com/zh-CN/)。
 
+## [0.0.2] -2016-06-29
+
+### Added
+
+1. 加了Travis CI，以后只要提交到master分支的代码自动会发布到gh-pages分支，加入build status
+
+### Changed
+
+1. 调整部分目录结构
+
 ## [0.0.1] - 2016-06-22
 
 ### Added
