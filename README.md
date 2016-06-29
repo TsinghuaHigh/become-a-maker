@@ -87,7 +87,7 @@ TODO:
 ## Gitbook特有的语法
 
 * 页面中插入一个目录导览：`<!- - toc -->` （注意：去掉横线之间的空格）
-* 页面中插入其他页面：`{% include "course.md" %}`
+* 页面中插入其他页面：`{% include "SUMMARY.md" %}`
 
 ## 如何用git进行协作
 
