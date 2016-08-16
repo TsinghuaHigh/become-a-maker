@@ -95,6 +95,8 @@ TODO:
 
 另外可以看这个说明：http://www.jianshu.com/p/1e402922ee32/
 
+社区公认的Markdown语法标准是CommonMark，官网为[http://commonmark.org/](http://commonmark.org/)。CommonMark官网提供了Markdown的[参考](http://commonmark.org/help/)、[细节标准](http://spec.commonmark.org/)、[教程](http://commonmark.org/help/tutorial/)和一个用于尝试Markdown的[Playground](http://spec.commonmark.org/dingus/)。
+
 ## Gitbook特有的语法
 
 * 页面中插入一个目录导览：`<!- - toc -->` （注意：去掉横线之间的空格）
