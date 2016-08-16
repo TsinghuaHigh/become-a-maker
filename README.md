@@ -33,7 +33,18 @@ TODO:
 
 1. 下载以下软件
     * [Homebrew](http://brew.sh/) 在命令行里运行：`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-    * [node](http://nodejs.org/) 在命令行里运行：`brew install nodejs`
+    * 使用清华大学提供的Homebrew镜像:
+    ```bash
+    cd /usr/local
+    git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/brew.git
+
+    cd /usr/local/Library/Taps/homebrew/homebrew-core
+    git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew-core.git
+
+    brew update
+    ```
+
+    * [node](http://nodejs.org/) 在命令行里运行：`brew install node`
     * [gitbook](https://www.gitbook.com/) 在命令行里运行：`sudo npm install gitbook-cli -g`  管理员权限要的是当前mac用户的密码
     * 推荐下载git可视化[sourcetree](https://www.sourcetreeapp.com/)
     * 推荐下载编辑器[atom](http://atom.io/)
