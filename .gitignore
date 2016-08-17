@@ -3,3 +3,6 @@ _book
 *.log
 node_modules
 .DS_Store
+
+# Vim swaps
+.*.sw[a-p]
